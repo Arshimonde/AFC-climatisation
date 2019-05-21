@@ -1,0 +1,96 @@
+/*HEADER STYLE*/
+header .input-group-btn img{
+    width:25px;
+}
+header .input-group{
+    border:1px solid #c8c8c8;
+    padding:0px 10px!important;
+    float:right!important;
+    margin-top:60px;
+}
+header .input-group input{
+    border:none !important;
+    color:#3c3c3b;
+}
+header .input-group input:focus{
+    outline:none;
+}
+header .logo-container{
+    margin:0;
+}
+header .logo-container .container{
+    overflow: hidden;
+}
+header .logo-container .container .logo{
+    padding:20px 20px 20px 0;
+}
+header .navbar{
+    background-color: #68227a;
+    width:100%;
+    border-radius:0;
+}
+header .navbar .nav li a{
+    color:white;
+    text-transform: uppercase;
+    font-size:12px;
+    margin: 0;
+}
+header .navbar .nav li span.active{
+    background-color: #c5c7c8;
+    width:20px;
+    height:4px;
+    display: block;
+    margin: auto;
+}
+header .navbar .nav li a:hover{
+    background: none;
+}
+/*FOOTER STYLE*/
+.row{
+    margin:0;
+}
+#footer-contenu{
+    background-color: #68227a; 
+    padding:20px 0;
+}
+#footer-contenu li a,#footer-nav li a{
+    color:white;
+    text-decoration: none;
+}
+#footer-contenu li a:hover,#footer-contenu h5:hover{
+    color:#b3b0b0;
+    cursor: pointer;
+}
+#footer-contenu li{
+    margin: 5px 0;
+}
+#footer-contenu h5{
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#footer-nav{
+    background-color: #460956;
+}
+#footer-nav ul{
+    margin:0;
+}
+#footer-nav ul li a{
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 0px;    
+}
+#two-buttons a{
+    display: block;
+    width: 100%;
+    background-color: #e5e5e5;
+    text-align:center;
+    padding:10px 15px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #2a2a2b;
+    text-decoration: none;  
+}
+#two-buttons a:hover{
+    background-color: #e3e2e2;
+}

@@ -1,0 +1,81 @@
+
+
+.link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 2;
+}
+.link:hover{text-decoration: none;}
+
+.heading{text-transform: uppercase;color:#3a2a2b;}
+.page-heading{font-weight: 300;}
+.voir{color:#68227a;font-size:20px;}
+.voir:hover{color:#2a2a2b}
+
+.display-flex{
+    display: -webkit-flex;display: -moz-flex;display: -ms-flex;display: -o-flex;
+    display: flex;
+}
+.flex-column{
+    -webkit-flex-direction: column;-moz-flex-direction: column;-ms-flex-direction: column;-o-flex-direction:column;
+    flex-direction: column;
+}
+.flex-justify-center{justify-content: center;}
+.flex-align-items{align-items: center;}
+.card{
+    height: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.card div{
+    text-align: center;
+    background-color: rgba(255,255,255,0.8);
+    overflow: hidden;
+    padding:30px;
+}
+.card div h2{font-weight: bold;font-size: 40px;}
+.card div p{font-size: 18px;margin-bottom: 30px;font-weight: 300;}
+.savoir-plus{
+    font-size: 12px;
+    background-color: #2a2a2b;
+    padding: 5px 20px;
+    display: block;
+    margin: auto;
+    color:white;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+.savoir-plus:hover{
+    background-color: #474747;
+    color:white;
+}
+.quotes{
+    color:#68227a;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+.quotes:after{
+    content:'»';
+    margin-left: 20px;
+}
+.quotes:before{
+    content:'«';
+    margin-right: 20px;
+}

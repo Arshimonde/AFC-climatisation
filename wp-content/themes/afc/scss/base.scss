@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding:0;
+    margin:0;
+    font-family:$font;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+p{
+    color:$paragraph-color;
+    font-family: $font;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+a{
+    color:white;
+    text-transform: uppercase;
+    text-decoration:none;
+    &:hover{
+        text-decoration:none;
+        background: none;
+    }
+    &:visited{
+        text-decoration:none;
+        background: none;
+    }
+    &:focus{
+        text-decoration:none;
+        background: none;
+    }
+}
+.search-link{
+    @extend a;
+    color:$secondary-color;
+}
+aside{
+    width:28%;
+    float: right;
+}
+.quotes{
+    color:$primary-color;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    &:after{
+        content:'»';
+        margin-left: 20px;
+    }
+    &:before{
+        content:'«';
+        margin-right: 20px;
+    }
+}
+.pagination{
+    text-align: center;
+    display: block;
+    .page-numbers{
+        color:$primary-color;
+        font-size: 20px;
+     }
+ }
+ ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    a{
+        &:hover{color:#b3b0b0;}
+    }
+}
+#text-4{
+    h2{display: none;}
+}
+.wpcf7-response-output{
+    display: none!important;
+}
+.page-heading{
+    text-transform: uppercase;
+}
+.blue-background {
+    color:white;
+    padding: 20px;
+    background-color:#8cd1e6;
+    
+    p{
+        font-size: 16px;
+    }
+}
+.container{
+    @include mediaQuery(991px){
+        width:100%;
+    }
+}
+.breadcrumbs{
+    a{
+        color:#2a2a2b;
+        &:active,&:focus{
+            color:#2a2a2b;
+        }
+        &:hover{
+            text-decoration:underline;
+        }
+    }
+}
